@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Futura, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .flex-direction-responsive {
+    flex-direction: row;
+  }
+}
